@@ -41,5 +41,13 @@ namespace proyecto2
 		public void bajaEmpleado(Empleado e){
 			listaEmpleados.Remove(e);
 		}
+
+		public void agregarEvento(Evento eve){
+			listaEventos.Add(eve);
+		}
+		
+		public void quitarEvento(Evento eve){
+			listaEventos.Remove(eve);
+		}
 	}
 }
