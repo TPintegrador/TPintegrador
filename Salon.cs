@@ -33,5 +33,13 @@ namespace proyecto2
 			}
 			
 		}
+
+		public void altaEmpleado(Empleado e){
+			listaEmpleados.Add(e);
+		}
+		
+		public void bajaEmpleado(Empleado e){
+			listaEmpleados.Remove(e);
+		}
 	}
 }
